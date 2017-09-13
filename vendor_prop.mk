@@ -37,7 +37,8 @@ vendor.voice.conc.fallbackpath=deep-buffer \
 vendor.voice.path.for.pcm.voip=true \
 vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
-vendor.voice.voip.conc.disabled=true
+vendor.voice.voip.conc.disabled=true \
+ro.af.client_heap_size_kbyte=7168 \
 
 # B service
 PRODUCT_PROPERTY_OVERRIDES += \
