@@ -113,6 +113,10 @@ ro.fingerprint.cleanup.unused=false
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.fm.transmitter=false
+    
+# FRP
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
