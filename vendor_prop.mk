@@ -94,9 +94,12 @@ persist.demo.hdmirotationlock=false \
 debug.enable.sglscale=1 \
 sdm.debug.disable_skip_validate=1 \
 debug.sf.recomputecrop=0 \
+vendor.display.enable_default_color_mode=1 \
+vendor.gralloc.enable_fb_ubwc=1 \
+vendor.display.disable_skip_validate=1 \
 ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
-ro.qualcomm.svi=0 \
+ro.vendor.display.cabl=2 \
 ro.sf.lcd_density=280 \
 persist.debug.wfd.enable=1 \
 persist.hwc.enable_vds=1
@@ -134,7 +137,7 @@ media.stagefright.audio.sink=280 \
 mm.enable.qcom_parser=17825791 \
 vendor.vidc.disable.split.mode=1 \
 vendor.vidc.enc.disable.pq=true \
-video.disable.ubwc=1 \
+vendor.video.disable.ubwc=1 \
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Perf
